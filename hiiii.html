@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dipalee Physiotherapy Center</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4fbff;
+            color: #333;
+        }
+
+        header {
+            background: #087f8c;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 8px;
+        }
+
+        nav {
+            background: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #087f8c;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 70px 20px;
+            background: #dff7fa;
+        }
+
+        .hero h2 {
+            font-size: 36px;
+            color: #087f8c;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #087f8c;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+        }
+
+        .section {
+            padding: 45px 20px;
+            text-align: center;
+        }
+
+        .section h2 {
+            color: #087f8c;
+            margin-bottom: 25px;
+        }
+
+        .services {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            width: 220px;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px #ccc;
+        }
+
+        .card h3 {
+            color: #087f8c;
+            margin-bottom: 10px;
+        }
+
+        .appointment {
+            background: white;
+            max-width: 500px;
+            margin: auto;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px #ccc;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            background: #087f8c;
+            color: white;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        footer {
+            background: #087f8c;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Dipalee Physiotherapy Center</h1>
+    <p>Care • Recovery • Better Movement</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#appointment">Appointment</a>
+</nav>
+
+<section class="hero" id="home">
+    <h2>Welcome to Dipalee Physiotherapy Center</h2>
+    <p>Professional physiotherapy care for a healthier and more active life.</p>
+    <a href="#appointment" class="btn">Book Appointment</a>
+</section>
+
+<section class="section" id="services">
+    <h2>Our Services</h2>
+
+    <div class="services">
+
+        <div class="card">
+            <h3>Back Pain</h3>
+            <p>Effective physiotherapy exercises and treatment for back pain.</p>
+        </div>
+
+        <div class="card">
+            <h3>Neck Pain</h3>
+            <p>Personalized treatment to improve neck movement and comfort.</p>
+        </div>
+
+        <div class="card">
+            <h3>Knee Pain</h3>
+            <p>Therapy designed to improve knee strength and mobility.</p>
+        </div>
+
+        <div class="card">
+            <h3>Sports Injury</h3>
+            <p>Rehabilitation support for sports-related injuries.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="section" id="appointment">
+    <h2>Book an Appointment</h2>
+
+    <div class="appointment">
+
+        <input type="text" placeholder="Your Name">
+
+        <input type="number" placeholder="Your Age">
+
+        <input type="tel" placeholder="Phone Number">
+
+        <textarea rows="4" placeholder="Describe your problem"></textarea>
+
+        <button>Book Appointment</button>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Dipalee Physiotherapy Center</p>
+    <p>HTML & CSS Beginner Project</p>
+</footer>
+
+</body>
+</html>
